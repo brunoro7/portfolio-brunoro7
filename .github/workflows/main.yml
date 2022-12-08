@@ -1,4 +1,4 @@
-name: Testing EsLint - (Continuous Integration)
+name: Testing Linters - Continuous Integration
 on:
   push:
     branches: [ main ]
@@ -6,7 +6,7 @@ on:
     branches: [ main ]
 
 jobs:
-  run-tests:
+  run-test:Eslint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout do Projeto
@@ -21,7 +21,6 @@ jobs:
       - name: Roda o EsLint
         run: npm run test:lint
 
-name: Testing StyleLint - (Continuous Integration)
 on:
   push:
     branches: [ main ]
@@ -29,7 +28,7 @@ on:
     branches: [ main ]
 
 jobs:
-  run-tests:
+  run-test:StyleLint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout do Projeto
