@@ -6,7 +6,7 @@ on:
     branches: [ main ]
 
 jobs:
-  run-test:Eslint:
+  run-Eslint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout do Projeto
@@ -21,7 +21,7 @@ jobs:
       - name: Roda o EsLint
         run: npm run test:lint
 
-  run-test:StyleLint:
+  run-StyleLint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout do Projeto
