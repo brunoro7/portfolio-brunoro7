@@ -1,0 +1,45 @@
+name: Testing EsLint - (Continuous Integration)
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do Projeto
+        uses: actions/checkout@v3
+
+      - name: Instala Node.js
+        uses: actions/setup-node@v3
+
+      - name: Instalação das Libs
+        run: npm install
+
+      - name: Roda o EsLint
+        run: npm run test:lint
+
+name: Testing StyleLint - (Continuous Integration)
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do Projeto
+        uses: actions/checkout@v3
+
+      - name: Instala Node.js
+        uses: actions/setup-node@v3
+
+      - name: Instalação das Libs
+        run: npm install
+
+      - name: Roda o EsLint
+        run: npm run test:style
