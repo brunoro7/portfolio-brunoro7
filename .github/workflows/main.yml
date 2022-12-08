@@ -21,7 +21,6 @@ jobs:
       - name: Roda o EsLint
         run: npm run test:lint
 
-jobs:
   run-test:StyleLint:
     runs-on: ubuntu-latest
     steps:
