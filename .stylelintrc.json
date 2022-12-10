@@ -45,7 +45,7 @@
     "function-comma-space-before": "never",
     "function-linear-gradient-no-nonstandard-direction": true,
     "function-max-empty-lines": 0,
-    "function-name-case": "lower",
+    "function-name-case": null,
     "function-parentheses-space-inside": "never",
     "function-url-no-scheme-relative": true,
     "function-url-quotes": "always",
@@ -56,6 +56,7 @@
         "baseIndentLevel": 1
       }
     ],
+    "selector-class": null,
     "keyframe-declaration-no-important": true,
     "length-zero-no-unit": true,
     "linebreaks": "unix",
