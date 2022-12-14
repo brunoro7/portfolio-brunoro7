@@ -20,12 +20,12 @@ function HeaderNav() {
       <BtnNavigateBase
         name="Projetos"
         iconBtn={iconBtnProjetos}
-        handleClick={() => navigate('/projetos')}
+        handleClick={() => navigate('/projects')}
       />
       <BtnNavigateBase
         name="Contato"
         iconBtn={iconBtnContato}
-        handleClick={() => navigate('/contato')}
+        handleClick={() => navigate('/contact')}
       />
     </div>
   );
