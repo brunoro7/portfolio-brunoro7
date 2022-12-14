@@ -1,6 +1,8 @@
 /** ======= Box Card ======= */
 .box-cardRepo {
-  background-color: #192949af;
+  background-color: #2a0f8099;
+
+  /* background-color: #ffffffdf; */
   border: double 1px #38b6ff;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(52, 143, 213, 57.9%);

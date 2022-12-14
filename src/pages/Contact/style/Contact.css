@@ -1,5 +1,5 @@
 /* ======= Corpo da Página ======= */
-.body-Projects {
+.body-Contact {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
 }
 
 /* ======= Box que contêm o header ======= */
-.box-bodyHeaderProjects {
+.box-bodyHeaderContact {
   align-items: center;
 
   /* background-color: #191919f2; */
@@ -30,28 +30,33 @@
 }
 
 /* ======= Box que contêm o corpo da main ======= */
-.box-mainProjects {
-  background: url('../../../assets/background/whiteAndblue-Projects.svg');
+.box-mainContact {
+  align-items: center;
+  background: url('../../../assets/background/whiteAndblue-Contact.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
   height: 85.3vh;
   margin-top: 7.5vh;
   width: 100vw;
 }
 
-/* ======= Box que contêm o Component Main Projects ======= */
-.box-sectionProjects {
+/* ======= Box que contêm o Component Main Contact ======= */
+.box-sectionContact {
+  background-color: #2a0f8099;
   display: flex;
   flex-direction: column;
-  height: 84.2vh;
-  margin-top: 1vh;
-  overflow-y: scroll;
-  width: 100vw;
+  height: 53vh;
+  margin-top: 3.5vh;
+
+  /* overflow-y: scroll; */
+  width: 50vw;
 }
 
 /* ======= Box que contêm o footer ======= */
-.box-bodyFooterProjects {
+.box-bodyFooterContact {
   align-items: center;
 
   /* background-color: #191919f2; */
