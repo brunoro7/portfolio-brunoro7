@@ -1,4 +1,5 @@
 import Footer from '../../components/footer/Footer';
+import HeaderNav from '../../components/header/HeaderNav';
 import './style/Home.css';
 
 function Home() {
@@ -6,7 +7,7 @@ function Home() {
     <div className="body-Home">
 
       <header className="box-bodyHeaderHome">
-        <h1>Portfólio Bruno Rossetti</h1>
+        <HeaderNav />
       </header>
 
       <main className="box-mainHome">

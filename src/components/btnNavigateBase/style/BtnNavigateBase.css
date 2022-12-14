@@ -1,0 +1,46 @@
+.box-btnBase {
+  align-items: center;
+
+  /* background-color: #000013e5; se for com branco */
+  background-color: #000019;
+
+  /* background-color: #191919af; */
+  border: double 1px #38b6ff;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 0 rgba(52, 143, 213, 57.9%);
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  height: 35px;
+  justify-content: center;
+  margin: 0.3rem;
+  min-width: 150px;
+  opacity: 0.7;
+  padding: 0.1rem 1rem;
+  transition: all 900ms;
+  width: 11vw;
+}
+
+.box-btnBase:hover {
+  background-color: #013852;
+  border: solid 1px #27ffefe2;
+  box-shadow: 0 1px 7px 0 rgba(64, 178, 206, 57.9%), 0 1.5px 15px 1px rgba(52, 143, 213, 57.9%);
+  opacity: 0.9;
+}
+
+.iconBtn {
+  border-radius: 40%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  width: 20%;
+}
+
+.text-btnName {
+  color: whitesmoke;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  padding: 2px;
+  text-indent: 0.3vw;
+}
