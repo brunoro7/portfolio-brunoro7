@@ -1,0 +1,66 @@
+/* ======= Corpo da Página ======= */
+.body-Projects {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* ======= Box que contêm o header ======= */
+.box-bodyHeaderProjects {
+  align-items: center;
+
+  /* background-color: #191919f2; */
+  border-bottom: solid 0.7px #38b6ff;
+  box-shadow: 0 1px 7px 0 rgba(64, 178, 206, 57.9%), 0 1.5px 5px 1px rgba(52, 143, 213, 57.9%);
+
+  /* color: whitesmoke; */
+  color: #191919f2;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: 700;
+  height: 7.5vh;
+  justify-content: center;
+  position: fixed;
+  text-transform: uppercase;
+  top: 0;
+  width: 100vw;
+}
+
+/* ======= Box que contêm o corpo da main ======= */
+.box-mainProjects {
+  background: url('../../../assets/background/whiteAndblue-Projects.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85.3vh;
+  margin-top: 7.5vh;
+  width: 100vw;
+}
+
+/* ======= Box que contêm o Component Main Projects ======= */
+.box-sectionProjects {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  height: 84vh;
+  margin-top: 1vh;
+  overflow-y: scroll;
+  width: 100vw;
+}
+
+/* ======= Box que contêm o footer ======= */
+.box-bodyFooterProjects {
+  align-items: center;
+
+  /* background-color: #191919f2; */
+  border-top: solid 0.7px #38b6ff;
+  bottom: 0;
+  box-shadow: 0 1px 7px 0 rgba(64, 178, 206, 57.9%), 0 1.5px 5px 1px rgba(52, 143, 213, 57.9%);
+  height: 7vh;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+}
