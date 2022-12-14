@@ -1,5 +1,5 @@
 import Footer from '../../components/footer/Footer';
-import HeaderNav from '../../components/header/HeaderNav';
+import HeaderNav from '../../components/headerNav/HeaderNav';
 import MainProjects from '../../components/mainProjects/MainProjects';
 import './style/Projects.css';
 
