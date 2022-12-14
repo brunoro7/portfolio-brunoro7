@@ -1,5 +1,6 @@
 import React from 'react';
 import Props_CardRepo from '../../interfaces/components/Props_CardRepo';
+import BtnRepoRedirect from '../btnRepoRedirect/BtnRepoRedirect';
 // import BtnRepoRedirect from '../BtnRepoRedirect/BtnRepoRedirect';
 import './style/CardRepo.css';
 
@@ -44,7 +45,7 @@ class CardRepo extends React.Component <Props_CardRepo> {
 
         <div className="cardRepo-LinkRepo">
           <p className="title-LinkRepo">Acesso ao repositório:</p>
-          {/* <BtnRepoRedirect name="Clique aqui" svn_url={svn_url} /> */}
+          <BtnRepoRedirect name="Clique aqui" svn_url={svn_url} />
         </div>
       </div>
     );

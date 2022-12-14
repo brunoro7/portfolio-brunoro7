@@ -42,10 +42,9 @@
 
 /* ======= Box que contêm o Component Main Projects ======= */
 .box-sectionProjects {
-  align-self: center;
   display: flex;
   flex-direction: column;
-  height: 84vh;
+  height: 83vh;
   margin-top: 1vh;
   overflow-y: scroll;
   width: 100vw;
