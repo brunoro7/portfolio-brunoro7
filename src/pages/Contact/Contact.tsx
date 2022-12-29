@@ -1,3 +1,4 @@
+import ContactForm from '../../components/contactForm/ContactForm';
 import Footer from '../../components/footer/Footer';
 import HeaderNav from '../../components/headerNav/HeaderNav';
 import './style/Contact.css';
@@ -13,7 +14,7 @@ function Contact() {
       <main className="box-mainContact">
 
         <section className="box-sectionContact">
-          Seré o FORM
+          <ContactForm />
         </section>
 
       </main>
