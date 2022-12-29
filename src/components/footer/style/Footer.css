@@ -1,0 +1,48 @@
+.box-contentFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+}
+
+.box-footerIcons {
+  align-self: center;
+  display: flex;
+  height: 4.5vh;
+  justify-content: space-evenly;
+  width: 25vw;
+}
+
+.img-icon {
+  border-radius: 15%;
+  cursor: pointer;
+  height: 3.5vh;
+  margin: 0.7vh 0;
+  opacity: 0.4;
+  transition: all 750ms;
+}
+
+.img-icon:hover {
+  opacity: 0.9;
+}
+
+.gitHub {
+  background-color: rgba(245, 245, 245, 90%);
+  border-radius: 30%;
+}
+
+.div-footerCopyright {
+  align-content: baseline;
+  align-self: center;
+  display: flex;
+  height: 2.5vh;
+  justify-content: center;
+  width: 70vw;
+}
+
+.img-footerCopyright {
+  flex-basis: 27.5%;
+  height: 100%;
+  margin: 0.3vh 0;
+  object-fit: cover;
+}

@@ -1,0 +1,23 @@
+.box-FormContact {
+  align-items: center;
+
+  /* background-color: whitesmoke; */
+  border: solid 0.7px #38b6ff;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 0 rgba(64, 178, 206, 57.9%), 0 1.5px 3px 1px rgba(52, 143, 213, 57.9%);
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+  width: 65vw;
+}
+
+.box-btnContactSendEmail {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-around;
+  margin: 15px;
+  margin-top: 15px;
+  width: 280px;
+}

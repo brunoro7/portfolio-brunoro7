@@ -1,0 +1,103 @@
+/* ======= Corpo da Página ======= */
+.body-Home {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* ======= Box que contêm o header ======= */
+.box-bodyHeaderHome {
+  align-items: center;
+
+  /* background-color: #191919f2; */
+  border-bottom: solid 0.7px #38b6ff;
+  box-shadow: 0 1px 7px 0 rgba(64, 178, 206, 57.9%), 0 1.5px 5px 1px rgba(52, 143, 213, 57.9%);
+
+  /* color: whitesmoke; */
+  color: #191919f2;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: 700;
+  height: 7.5vh;
+  justify-content: center;
+  position: fixed;
+  text-transform: uppercase;
+  top: 0;
+  width: 100vw;
+}
+
+/* ======= Box que contêm o corpo da main ======= */
+.box-mainHome {
+  background: url('../../../assets/background/whiteAndblue-Home.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  height: 85.3vh;
+  justify-content: space-evenly;
+  margin-top: 7.5vh;
+  width: 100vw;
+}
+
+/* ======= Box que contêm os "artigos/textos" ======= */
+.box-sectionArticles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
+}
+
+.section-apresentation {
+  background-color: #2a0f8099;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.section-aboutMe {
+  background-color: #348fd594;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  margin-top: 3.5vh;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+/* ======= Box que contêm a foto e/ou afins ======= */
+.section-prePhoto {
+  background-color: #ffffffaf;
+  display: flex;
+  flex-direction: column;
+  height: 73.5vh;
+
+  /* overflow-y: scroll; */
+  width: 100%;
+}
+
+.box-sectionPhoto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+}
+
+/* ======= Box que contêm o footer ======= */
+.box-bodyFooterHome {
+  align-items: center;
+
+  /* background-color: #191919f2; */
+  border-top: solid 0.7px #38b6ff;
+  bottom: 0;
+  box-shadow: 0 1px 7px 0 rgba(64, 178, 206, 57.9%), 0 1.5px 5px 1px rgba(52, 143, 213, 57.9%);
+  height: 7vh;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+}
